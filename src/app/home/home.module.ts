@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { OneComponent } from './one/one.component';
 import { HomeComponent } from './home.component';
-import { DetailComponent } from './one/deme/one/detail/detail.component';
 import { TwoComponent } from './two/two.component';
 
 @NgModule({
@@ -12,6 +11,6 @@ import { TwoComponent } from './two/two.component';
     CommonModule,
     HomeRoutingModule
   ],
-  declarations: [OneComponent, HomeComponent, DetailComponent, TwoComponent]
+  declarations: [HomeComponent, OneComponent, TwoComponent]
 })
 export class HomeModule { }
